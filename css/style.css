@@ -1,0 +1,144 @@
+@import url("components/buttons.css");
+@import url("components/footer.css");
+@import url("components/forms.css");
+@import url("components/banners.css");
+@import url("components/cards.css");
+@import url("components/abouts.css");
+@import url("components/grids.css");
+
+
+body{
+  margin: 0; 
+  padding: 0;
+  background-color: black;
+  line-height: 1.6em;
+  text-rendering: optimizeLegibility;
+}
+
+.contImage{
+  background-color: black;
+}
+
+/* Tags */
+h2 {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: beige;
+  font-size: 64px;
+}
+h4{
+  font-family: 'Lato', sans-serif;
+  font-size: 26px;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  align-items: center;
+}
+
+/* Line */
+.lineWrapper{
+  background-image: url("../../images/fithsection.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 16px;
+}
+
+.lineWrapper hr {
+  width: 60%;
+  height: 20px;
+  background-color: #A2322E;
+  margin:auto;
+}
+
+/* Media Queries */
+@media(max-width: 1700px) {
+  h2{
+    font-size: 56px;
+  }
+  h4{
+    font-size: 24px;
+  }
+
+}
+
+@media(max-width: 1550px) {
+  h2{
+    font-size: 48px;
+  }
+  .button{
+    font-size: 32px;
+  }
+}
+
+@media(max-width: 1300px) {
+  h2{
+    font-size: 36px;
+  }
+  .logo{
+    height: 360px;
+  }
+  .button{
+    font-size: 28px;
+    margin: 16px 8px 32px;
+  }
+}
+
+@media(max-width: 1024px) {
+  .logo{
+    max-height: 360px;
+    margin: 8px;
+    padding: 8px;
+  }
+  .scrittura{
+    height: 80px;
+    margin: 48px 28px 8px;
+  }
+  .button{
+    font-size: 24px;
+    margin: 12px 6px 28px;
+  }
+
+}
+
+@media(max-width: 771px) {
+  .logo{
+    max-height: 360px;
+    margin: 8px;
+    padding: 8px;
+  }
+}
+
+@media(max-width: 700px) {
+  .scatolaBanner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .logo{
+    max-height: 400px;
+    margin: auto;
+  }
+  footer p{
+    display: none;
+  }
+}
+
+@media(max-width: 420px) {
+  .aboutPic{
+    height: 310px;
+    border-radius: 12px;
+  }
+  h4{
+    font-size: 18px;
+    text-align: start;
+  }
+}
+
+@media(max-width: 280px) {
+  .logo{
+    max-height: 300px;
+    margin: auto;
+  }
+}

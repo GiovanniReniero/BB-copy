@@ -1,0 +1,28 @@
+/* BannerIndex */
+.banner{
+  background-image: url("../../images/banner_sfumato.jpg");
+  background-position: 75% 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.scatolaBanner {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  margin: 4px;
+}
+
+ .logo {
+   align-self: flex-start;
+   height: 400px;
+   margin: 32px;
+   margin-bottom: 64px;
+  }
+
+.scrittura{
+  font-size: 4vh;
+  margin-bottom: 40px;
+}
+

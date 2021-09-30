@@ -1,0 +1,41 @@
+.allactionWrapper{
+  background-image: url("../../images/lastsection.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0;
+  padding-bottom: 16px;
+}
+
+.actionTextWrapper h4{
+  margin: 16px 72px 4px;
+  text-align: center;
+}
+
+.actionWrapper.container{
+  padding-left: 8px;
+}
+
+.actionWrapper{
+  background-color: #A2322E;
+  border-radius: 4px;
+  margin: 4em 0.3em 6em;
+}
+
+ .action {
+  color: #A2322E;
+  font-family: 'Nanum Myeongjo', serif;;
+} 
+
+.actionWrapper > *{
+  padding: 0.5em;
+  margin: 0.5em;
+}
+
+.actionWrapper form label{
+  font-size: 20px;
+  padding-bottom: 6px;
+}
+
+.actionWrapper form textarea, .wrapper form input {
+  font-size: 20px
+}
