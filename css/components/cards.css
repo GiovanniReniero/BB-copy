@@ -13,6 +13,11 @@
   border: coral solid 03px;
 }
 
+.card:hover{
+  transform: scale(1.05);
+  /* box-shadow: 2px 2px 10px #fff; */
+}
+
 .cardPic{
   margin: 24px;
   height: 200px;
