@@ -22,5 +22,6 @@
   transition: 0.3s;
   background-color: #FDCF24;
   color: #A2322E;
+  transform: scale(1.05);
 }
 
