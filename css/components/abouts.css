@@ -43,11 +43,11 @@ div.pictura:hover::before {
   opacity: 0.8;
 }
 
-div.pictura:hover{
+div.pictura:hover, div.pictura:active {
   transform: scale(1.05);
 }
 
-div.pictura img:hover{
+div.pictura img:hover, div.pictura img:active{
   box-shadow: 3px 3px 16px #fff;
 }
   
