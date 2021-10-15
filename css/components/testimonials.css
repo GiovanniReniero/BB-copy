@@ -1,0 +1,24 @@
+/* .testimonialWrapper .reset{ */
+  /* margin: 0; */
+  /* padding: 5em; */
+  /* box-sizing: border-box; */
+/* } */
+
+
+.testimonialWrapper .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonialWrapper .grid>:last-child{
+  margin: auto;
+} 
+
+.testimonialWrapper .grid img{
+  height: 264px;
+}
+
+

@@ -1,3 +1,4 @@
+@import url("components/testimonials.css");
 @import url("components/buttons.css");
 @import url("components/spins.css");
 @import url("components/footer.css");
@@ -38,6 +39,12 @@ ul{
   align-items: center;
 }
 
+/* Testimonials */
+.testimonialWrapper .reset{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* Media Queries */
 @media(max-width: 1700px) {
