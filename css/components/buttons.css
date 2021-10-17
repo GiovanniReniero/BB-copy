@@ -4,6 +4,8 @@
   justify-content: center;
 }
 
+
+
 .button{
   font-size: 1.5em;
   text-decoration: none;
@@ -24,4 +26,27 @@
   color: #A2322E;
   transform: scale(1.05);
 }
+
+.button2{
+  font-size: 22px;
+  text-decoration: none;
+  background-color: #A2322E;
+  color: #fff ;
+  border: 0;
+  border-radius: 16px;
+  padding: 10px 40px;
+  /* box-shadow: 2px 2px 11px rgba(80, 80, 80, 0.2); */
+  margin: 24px 16px 40px;
+  /* font-size: 45px; */
+  font-weight: 500;
+  width: auto ;
+}
+
+.button2:hover {
+  transition: 0.3s;
+  /* color:  #FDCF24; */
+  color: #000;
+  transform: scale(1.05);
+}
+
 

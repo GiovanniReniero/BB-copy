@@ -39,12 +39,7 @@ ul{
   align-items: center;
 }
 
-/* Testimonials */
-.testimonialWrapper .reset{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 /* Media Queries */
 @media(max-width: 1700px) {
