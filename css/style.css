@@ -47,7 +47,6 @@ ul{
   h4{
     font-size: 24px;
   }
-
 }
 
 @media(max-width: 1550px) {
@@ -136,7 +135,6 @@ ul{
   .capcha{
     justify-content: center;
   }
-  
 }
 
 @media(max-width: 420px) {
@@ -160,7 +158,6 @@ ul{
   }  
   .stars {
   }
-  
 }
 
 @media(max-width: 280px) {
